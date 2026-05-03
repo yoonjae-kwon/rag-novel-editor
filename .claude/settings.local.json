@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import ast; [ast.parse\\(open\\(f, encoding='utf-8'\\).read\\(\\)\\) for f in ['src/schemas.py', 'src/metadata_extractor.py', 'src/config.py', 'scripts/extract_metadata.py']]; print\\('syntax OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import ast; [ast.parse\\(open\\(f, encoding='utf-8'\\).read\\(\\)\\) for f in ['src/schemas.py', 'src/metadata_extractor.py']]; print\\('syntax OK'\\)\")"
+    ]
+  }
+}
